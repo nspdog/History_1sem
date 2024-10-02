@@ -14,6 +14,8 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(TOKEN)
 dp = Dispatcher()
 
+
+#функция выбора лекций
 async def cmd_start(message: types.Message):
 
     #тут должна быть реплай клавиатура с лекциями
